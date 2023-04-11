@@ -1,4 +1,91 @@
-.col-xs-1 {
-  background-color: violet;
+/* Regole generali */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Regole upper */
+
+#upper {
   height: 50px;
+}
+
+
+/* Regole main nav */
+
+#main-nav {
+  width: 200px;
+  height: calc(100vh - 50px);
+  position: relative;
+  z-index: 99;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Regole application */
+
+#application {
+  height: calc(100vh - 50px);
+  width: calc(100% - 200px);
+  overflow: auto;
+  background-color: blue;
+}
+
+#upgrade{
+  position: fixed;
+  width: calc(100% - 200px);
+  background-color: black;
+}
+
+#interface {
+  margin-top: 70px;
+  height: 100%;
+}
+
+#interface a {
+  padding: 3px 10px;
+}
+
+
+
+
+/* Regole footer */
+
+footer {
+  height: 50px;
+  background-color: green;
+}
+
+
+
+/* DEBUG */
+
+.container {
+  background-color: violet;
+  height: 100vh;
+}
+
+#upper {
+  background-color: brown;
+}
+
+.col-xs-6, .col-xs-2, .col-xs-12, .col-xs-3  {
+  background-color: aqua;
+  border: 1px solid black;
+  height: 50px;
+}
+
+/* #main-nav {
+  background-color: coral;
+} */
+
+#interface {
+  background-color: brown;
 }
