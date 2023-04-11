@@ -19,6 +19,10 @@ h3 {
   margin-bottom: 5px;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Regole upper */
 
 #upper {
@@ -49,6 +53,102 @@ button {
   flex-direction: column;
 }
 
+#logo {
+  padding: 5px;
+  width: 180px;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#nav-options {
+  margin-top: 10px;
+  color: grey;
+}
+
+#nav-options li {
+  margin-bottom: 10px;
+}
+
+#nav-options a{
+  padding: 10px;
+}
+
+#nav-options .fa-bars {
+  transform: rotate(90deg);
+}
+
+.current-section {
+  border-left: 2px solid green;
+}
+
+#playlist {
+  padding-left: 15px;
+}
+
+.my-playlist {
+  text-decoration: none;
+}
+
+#playlist h3 {
+  margin-top: 10px;
+}
+
+#add-playlist{
+  align-items: center;
+}
+
+#add-playlist {
+  color: grey;
+}
+
+#add-playlist a {
+  padding-left: 10px;
+}
+
+#add-playlist .fa-square-plus{
+  font-size: 40px;
+  margin-bottom: 10px;
+
+}
+
+#playlist {
+  overflow:auto;
+  height: 70%;
+}
+
+#my-playlist li{
+  margin: 10px 0;
+}
+
+#my-playlist a{
+  padding: 10px 0;
+}
+
+#last-info > span {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  display: block;
+}
+
+#user {
+  padding: 5px;
+  align-items: center;
+}
+#user h4 {
+  padding-left: 10px;
+}
+
+#icon {
+  width: 25px;
+}
+
+#user img{
+  width: 100%;
+  background-color:grey;
+  border-radius: 50%;
+}
 
 
 /* Regole application */
