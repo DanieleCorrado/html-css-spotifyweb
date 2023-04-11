@@ -2,15 +2,38 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
+h2 {
+  margin-left: 10px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
 /* Regole upper */
 
 #upper {
   height: 50px;
+  background-color: rgb(8, 11, 18);;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 5px 30px;
+  margin-top: 10px;
 }
 
 
@@ -21,8 +44,7 @@ a {
   height: calc(100vh - 50px);
   position: relative;
   z-index: 99;
-  background-color: black;
-  color: white;
+  background-color: rgb(8, 11, 18);
   display: flex;
   flex-direction: column;
 }
@@ -35,22 +57,79 @@ a {
   height: calc(100vh - 50px);
   width: calc(100% - 200px);
   overflow: auto;
-  background-color: blue;
+  background-color: rgb(20, 25, 34);
 }
 
 #upgrade{
   position: fixed;
   width: calc(100% - 200px);
   background-color: black;
+  height: 50px;
+  z-index: 99;
 }
 
 #interface {
   margin-top: 70px;
-  height: 100%;
 }
 
 #interface a {
-  padding: 3px 10px;
+  padding: 5px 10px;
+}
+
+#interface > span {
+  margin-left: 10px;
+}
+
+.current-category {
+  border-bottom: 2px solid green;
+}
+
+#categories {
+  margin-bottom: 30px;
+}
+
+#recently-played, #for-you, #artists {
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.album {
+  width: calc((100% /6) - 5px);
+  margin-right: 5px;
+}
+
+.album img {
+  width: 100%;
+}
+
+.album-cover {
+  position: relative;
+}
+
+.artist img {
+  border-radius: 360px;
+}
+
+.fa-circle-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  display: none;
+}
+
+.album .album-cover:hover .fa-circle-play{
+  display: inline;
+}
+
+.album .album-cover:hover img {
+  opacity: 0.7;
+}
+
+.album-infos {
+  text-align: center;
 }
 
 
@@ -67,25 +146,3 @@ footer {
 
 /* DEBUG */
 
-.container {
-  background-color: violet;
-  height: 100vh;
-}
-
-#upper {
-  background-color: brown;
-}
-
-.col-xs-6, .col-xs-2, .col-xs-12, .col-xs-3  {
-  background-color: aqua;
-  border: 1px solid black;
-  height: 50px;
-}
-
-/* #main-nav {
-  background-color: coral;
-} */
-
-#interface {
-  background-color: brown;
-}

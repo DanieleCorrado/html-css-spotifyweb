@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/lib/12col.css">
     <link rel="stylesheet" href="css/lib/12col-responsive.css">
     <link rel="stylesheet" href="css/index.css">
@@ -22,7 +23,9 @@
        
         
         <nav id="main-nav" class="row">
+
           <div class="logo"></div>
+          
         </nav>
 
         
@@ -30,23 +33,245 @@
         <div id="application">
 
           <header class="row end-xs">
+
           <div class="col-xs-12" id="upgrade">
             <button>EFFETTUA L'UPGRADE</button>
           </div>
+
         </header>
 
         <section id="interface">
 
-          <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 center-xs">
-              <a href="#">IN EVIDENZA</a>
+          <div id="categories" class="row">
+
+            <div class="col-xs-12 center-xs">
+              <a href="#" class="current-category">IN EVIDENZA</a>
               <a href="#">PODCAST</a>
               <a href="#">CLASSIFICHE</a>
               <a href="#">GENERI E MOOD</a>
               <a href="#">NUOVE USCITE</a>
               <a href="#">SCOPRI</a>
             </div>
+
           </div>
+
+          <h2>Recently played</h2>
+
+          <section class="row" id="recently-played">
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/metal_lifting.jpg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Heavy Metal</h3>
+                <span>Subtitle</span>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/stranger.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Strange Things, Vol.1 (a Netflix original Series Soundtrack))</h3>
+                <span>Kyle Dixon &amp; Micheal Stein</span>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/aquietplace.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>A quiet place</h3>
+                <span>Subtitle</span>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/split.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Split</h3>
+                <span>Subtitle</span>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/cure.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>A cure for wellness</h3>
+                <span>Subtitle</span>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/sinister.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Sinister</h3>
+                <span>Subtitle</span>
+
+              </div>
+
+            </div>            
+
+          </section>
+
+          <h2>Creato per John Doe</h2>
+          <span>Pi&ugrave; ascolti, piu accurati saranno i suggerimenti</span>
+
+          <section class="row" id="for-you">
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/radar.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>release Radar</h3>
+
+              </div>
+
+            </div>
+
+            <!-- Album -->
+            
+            <div class="album">
+
+              <div class="album-cover">
+
+                <img src="img/mixdaily.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Daily Mix 1</h3>
+
+              </div>
+
+            </div>
+
+          </section>
+
+          <h2>Artisti pi&ugrave; popolari</h2>
+          <span>Pi&ugrave; ascolti, piu accurati saranno i suggerimenti</span>
+
+          <section class="row" id="artists">
+
+            <!-- artisti -->
+            
+            <div class="album">
+
+              <div class="album-cover artist">
+
+                <img src="img/youg.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Lana Del Rey</h3>
+
+              </div>
+
+            </div>
+
+            <!-- artisti -->
+            
+            <div class="album">
+
+              <div class="album-cover artist">
+
+                <img src="img/einaudi.jpeg" alt="Album">
+                <i class="fa-regular fa-circle-play"></i>
+
+              </div>              
+
+              <div class="album-infos">
+
+                <h3>Einaudi</h3>
+
+              </div>
+
+            </div>
+
+            </div>
+
+          </section>
 
         </section>
         
