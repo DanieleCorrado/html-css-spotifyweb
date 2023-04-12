@@ -38,8 +38,6 @@
 
           </div>
 
-          <div id="playlist">
-
             <h3>PLAYLIST</h3>
 
             <div id="add-playlist" class="row">
@@ -49,33 +47,37 @@
 
             </div>
 
+          <div id="playlist">
+
            <ul id="my-playlist">
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
-            <li> <a href="#">Nuova playlist</a></li>
+            <li> <a href="#">Nome playlist</a></li>
+            <li> <a href="#">Nome playlist</a></li>
+            <li> <a href="#">Nome playlist</a></li>
+            <li> <a href="#">Nome playlist</a></li>
 
            </ul>
 
           </div>
 
           <div id="last-info">
-            <span><i class="fa-solid fa-circle-down"></i> Installa app</span>
+
+            <a href="#"><i class="fa-solid fa-circle-down"></i> Installa app</a>
+
             <div id="user" class="row">
+
               <div id="icon">
+
                 <img src="img/profile.svg" alt="Profile image">
+
               </div>
+
               <h4>John Doe</h4>
+
             </div>
+
           </div>
           
         </nav>
-
-        
 
         <div id="application">
 
@@ -331,7 +333,7 @@
 
         <div class="row between-xs">
 
-          <div class="col-xs-2 center-xs">
+          <div class="col-xs-3 center-xs">
 
             <div class="row">
 
@@ -346,7 +348,7 @@
                 <div class="song-infos">
 
                   <h3>Nome</h3>
-                  <span>Brano nome</span>
+                  <a href="#">Brano nome</a>
                 </div>
 
               </div>
@@ -362,7 +364,7 @@
 
           </div>
 
-          <div class="col-xs-5">
+          <div id="track-setting" class="col-xs-5">
 
             <div id="song-setting" class="row center-xs">
               
@@ -374,16 +376,45 @@
 
             </div>
 
-            <div id="music-bar" class="row center-xs">durata musica</div>
+            <div class="bar row center-xs">
+
+              <span id="current-time">4:01</span>
+    
+              <div class="progress-bar">
+
+                <div class="current-progress-bar row">
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+
+              </div>
+
+              <span id="song-lenght">4:32</span>
+
+            </div>
 
           </div>
 
-          <div id="volume-setting" class="col-xs-3 center-xs">
+          <div id="volume-setting" class="col-xs-3 row">
 
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-display"></i>
-            <i class="fa-solid fa-volume-high"></i>
-            volume
+            <div id="other-setting" class="row">
+
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-display"></i>
+              <i class="fa-solid fa-volume-high"></i>
+
+            </div>
+
+            <div class="bar">
+              
+              <div class="progress-bar">
+
+                <div class="current-progress-bar row">
+                  <i class="fa-solid fa-circle"></i>
+                </div>
+
+              </div>
+
+            </div>
 
           </div>
 
